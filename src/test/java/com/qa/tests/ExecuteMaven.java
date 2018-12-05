@@ -4,9 +4,20 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ExecuteMaven {
+
+//My Test Cases
 	
 	@Test
 	public void Sum(){
+		int a = 10 ;
+		int b = 20 ;
+		Assert.assertEquals(30, a+b);
+		System.out.println("Sum Method");
+		
+	}
+	
+	@Test
+	public void Summmmmmm(){
 		int a = 10 ;
 		int b = 20 ;
 		Assert.assertEquals(30, a+b);
