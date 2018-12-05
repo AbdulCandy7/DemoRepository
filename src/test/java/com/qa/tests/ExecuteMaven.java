@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class ExecuteMaven {
 
-//My Test Cases
+//My Test Cases then Change in GIT
 	
 	@Test
 	public void Sum(){
