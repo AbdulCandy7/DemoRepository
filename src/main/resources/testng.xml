@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Maven Test Suite">
+
+
+   <test name="Maven Test Cases">
+		
+	
+<!--  <package name="package name(com.qa.test).*(Star means take multiple clases)"></class>  -->	
+		
+		<packages>		
+		      <package name="com.qa.tests.*" />		
+		</packages>
+	
+		
+<!-- OR Mention using Class Names Tags -->
+		
+<!--		<classes>  -->
+			
+<!--			<class name="com.qa.tests.ExecuteMaven"></class>   --> 
+<!--         	<class name="com.qa.tests.TestNGMaven"></class>      -->
+
+<!--		</classes> -->
+
+
+	</test>
+</suite>
